@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Welcome to Our Landing Page</h1>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="#testimonials">Testimonials</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section id="hero">
+            <div class="container">
+                <div class="hero-text">
+                    <h1>Security In The First & Foremost</h1>
+                    <p>We help you detect and prevent cyber attacks before it's too late. Cybersecurity products include Deep Detect & Respond, Deep Prevent and Deep Investigate.</p>
+                    <button>Explore</button>
+                    <button>Watch Video</button>
+                </div>
+                <div class="hero-image">
+                    <img src="images/image.webp" alt="Cyber Security Professional">
+                </div>
+            </div>
+        </section>
+        <section id="services">
+            <div class="container">
+                <h2>Our Services</h2>
+                <div class="service-cards">
+                    <div class="service-card">
+                        <h3>Threat Detection and Prevention</h3>
+                        <p>Identify and mitigate potential security threats before they cause harm.</p>
+                    </div>
+                    <div class="service-card">
+                        <h3>Incident Response</h3>
+                        <p>Quickly respond to and manage cybersecurity incidents to minimize impact.</p>
+                    </div>
+                    <div class="service-card">
+                        <h3>Risk Assessment and Management</h3>
+                        <p>Evaluate and manage security risks for comprehensive protection.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section id="testimonials">
+            <div class="container">
+                <h2>What Our Clients Say</h2>
+                <div class="testimonial-cards">
+                    <div class="testimonial-card">
+                        <p>"The best cybersecurity service we have ever used!"</p>
+                        <h4>- James kithaka, Tech Company</h4>
+                    </div>
+                    <div class="testimonial-card">
+                        <p>"Their threat detection is unparalleled."</p>
+                        <h4>- James kuria, Finance Company</h4>
+                    </div>
+                    <div class="testimonial-card">
+                        <p>"They saved us from a major security breach."</p>
+                        <h4>- Timothy kuria, Retail Company</h4>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section id="cta">
+            <div class="container">
+                <h2>Ready to Secure Your Business?</h2>
+                <p>Contact us today for a free consultation or to schedule a demo.</p>
+                <button onclick="location.href='contact.html'">Contact Us</button>
+                <button onclick="location.href='demo.html'">Sign Up for a Demo</button>
+            </div>
+        </section>
+        
+        <section id="testimonials" class="testimonials">
+            <div class="container">
+                <h2>Testimonials</h2>
+                <div class="testimonial-list">
+                    <div class="testimonial">
+                        <p>"This service is amazing! Highly recommend it to everyone."</p>
+                        <h4>- Customer One</h4>
+                    </div>
+                    <div class="testimonial">
+                        <p>"An incredible experience from start to finish."</p>
+                        <h4>- Customer Two</h4>
+                    </div>
+                    <div class="testimonial">
+                        <p>"Exceptional quality and fantastic customer service."</p>
+                        <h4>- Customer Three</h4>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contact" class="contact">
+            <div class="container">
+                <h2>Contact Us</h2>
+                <form id="contact-form">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" required></textarea>
+                    <button type="submit">Send</button>
+                </form>
+                <p id="form-message"></p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Our Landing Page</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
